@@ -9,7 +9,6 @@ books =  pickle.load(open('books.pkl','rb' ))
 similarity_score =  pickle.load(open('similarity.pkl','rb' ))
 
 
-
 app = Flask(__name__)
 
 @app.route("/")
